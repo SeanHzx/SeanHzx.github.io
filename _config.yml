@@ -1,8 +1,28 @@
-title: Zhengxian's Homepage
-description: 
-google_analytics: 
-show_downloads: true
-theme: jekyll-theme-dinky
+title: Zhengxian He
+description: Zhengxian He's Homepage
 
-gems:
-  - jekyll-mentions
+url: http://brianmaierjr.github.com/long-haul
+baseurl: ""
+paginate_path: "blog/page:num/"
+permalink: blog/:title/
+
+markdown: kramdown
+highlighter: rouge
+gems: [jekyll-paginate]
+paginate: 5
+
+navigation:
+ - title: Home
+   url: /index.html
+ - title: About
+   url: /about
+ - title: Contact
+   url: /contact
+
+social:
+   github: SeanHzx
+
+   facebook: brianmaierjr
+   email: zhe72@gatech.edu
+
+google_analytics: "UA-88959514-2"
